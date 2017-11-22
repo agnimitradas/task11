@@ -1,0 +1,49 @@
+select {
+    margin-left: 117px;
+    width: 391px;
+    padding: 10px 35px 5px 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input,
+textarea {
+    margin-left: 150px;
+    width: 350px;
+    padding: 5px 35px 5px 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+/* CAUTION: IE hackery ahead */
+
+select::-ms-expand {
+    display: none;
+    /* remove default arrow on ie10 and ie11 */
+}
+
+
+/* target Internet Explorer 9 to undo the custom arrow */
+
+.input-group {
+    padding: 10px;
+}
+
+button {
+    background-color: #3883fa;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 40px 2px;
+    cursor: pointer;
+}
